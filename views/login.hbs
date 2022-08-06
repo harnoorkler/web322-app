@@ -1,0 +1,38 @@
+<div class="row">
+    <div class="col-md-12">
+
+        <h2>Log In</h2>
+
+        <br />
+        {{#if errorMessage}}
+            <div class="alert alert-danger"> <strong>Error:</strong> {{errorMessage}}</div>
+        {{/if}}
+        <form method="post" action="/login">
+
+            <fieldset>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input class="form-control" id="userName" name="userName" placeholder="User Name"
+                                type="text" autofocus="true" required="true" value="{{#if userName}}{{userName}}{{/if}}" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input class="form-control" id="password" name="password" placeholder="Password"
+                                type="password" required="true" />
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <hr />
+
+            <input type="submit" class="btn btn-primary pull-right" value="Login" /><br /><br /><br />
+
+        </form>
+    </div>
+</div>

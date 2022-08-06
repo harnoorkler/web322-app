@@ -1,0 +1,15 @@
+// postgress
+
+host=ec2-34-234-240-121.compute-1.amazonaws.com
+Database=d73ggloic4trc4
+User=bqfxdcxnechrrk
+port=5432
+password=df0cc79224be1d772191b53e663f7158848bbafc7555f1dc2431fc1229780f9e
+uri=postgres://bqfxdcxnechrrk:df0cc79224be1d772191b53e663f7158848bbafc7555f1dc2431fc1229780f9e@ec2-34-234-240-121.compute-1.amazonaws.com:5432/d73ggloic4trc4
+heroku_cli=heroku pg:psql postgresql-elliptical-74382 --app harnoor-web322-assignment6
+
+//Mongodb
+hkkler@myseneca.ca
+H@rn@@r09
+harnoorkler
+uri=mongodb+srv://dbuser:harnoorkler@senecaweb.jcmxjdl.mongodb.net/?retryWrites=true&w=majority
